@@ -38,6 +38,7 @@ while (j < size)
 if (array[j] < array[x])
 {
 x = j;
+}
 j++;
 }
 if (x != i)
@@ -45,6 +46,6 @@ if (x != i)
 change_element(&array[x], &array[i]);
 print_array(array, size);
 }
-}
+j++;
 }
 }
